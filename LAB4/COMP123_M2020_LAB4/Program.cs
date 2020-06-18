@@ -6,7 +6,11 @@ namespace COMP123_M2020_LAB4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Person param = new Person("Param", age:19);
+
+            param.SaysHello();
+
+            Console.ReadLine();
         }
     }
 }
